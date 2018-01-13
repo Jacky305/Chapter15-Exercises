@@ -10,6 +10,10 @@ namespace Chapter15_Exercises
     {
         static void Main(string[] args)
         {
+            Exercise1.Run(args);
+            return;
+
+            //EXERCISE 4
             string[] words = { "Nog", "Cat", "Mouse", "Chill", "Netflix", "Mirror", "Black", "Carrot", "Apple", "Zlastic" };
 
             //Split words starting with A-M and N-Z
